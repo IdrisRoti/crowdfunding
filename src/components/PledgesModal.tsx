@@ -10,7 +10,7 @@ type prop = {
 const PledgesModal = ({setShowModal, setShowThanks}:prop) => {  
   return (
     <section className="overlay">
-      <div className="card h-[95%] md:h-[90%] overflow-auto py-8 px-5 w-[80%] md:w-[70vw] lg:w-[50vw] shadow-lg scrollbar">
+      <div className="card h-[95%] md:h-[90%] overflow-auto py-8 px-5 w-[90%] md:w-[70vw] lg:w-[50vw] shadow-lg scrollbar">
         {/* MODAL HEADING */}
         <div className="flex justify-between gap-3">
           <div>

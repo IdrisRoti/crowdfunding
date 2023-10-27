@@ -25,7 +25,7 @@ const PledgeCard = ({title,pledge, reward, amountLeft, setShowModal, setShowThan
     }
 
   return (
-    <button disabled = {amountLeft === 0 && true} className={`card text-left md:flex transition-all duration-300 ${showInput && "border-moderateCyan"} hover:border-moderateCyan disabled:opacity-50`}>
+    <button disabled = {amountLeft === 0 && true} className={`card text-left outline-none md:flex transition-all duration-300 ${showInput && "border-moderateCyan"} hover:border-moderateCyan disabled:opacity-50`}>
         <div className="flex justify-center items-center w-5 h-5 flex-shrink-0 rounded-full border border-slate-300 md:mr-5 mb-2">
             <div className={`${showInput && "w-3 h-3 rounded-full bg-moderateCyan"}`}></div>
         </div>

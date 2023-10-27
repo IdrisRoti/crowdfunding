@@ -18,7 +18,7 @@ const Hero = () => {
         </ul>
         {/* NAVBAR FOR MOBILE */}
         {showNav && 
-          <ul className="md:hidden absolute top-16 w-[90vw] bg-white rounded-xl shadow-lg">
+          <ul className="md:hidden z-10 absolute top-16 w-[90vw] bg-white rounded-xl shadow-lg">
             <li className="p-6 text-slate-700 font-bold">About</li>
             <hr />
             <li className="p-6 text-slate-700 font-bold">Discover</li>
