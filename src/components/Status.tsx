@@ -2,7 +2,6 @@ import { useAppSelector } from "../store/Store"
 
 const Status = () => {
     const status = useAppSelector(state=>state.pledge)
-    const progressValue:number = 10
     
 
     return (
